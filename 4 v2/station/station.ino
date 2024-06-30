@@ -31,7 +31,7 @@ bool tumbler_1_flag = false;
 bool tumbler_2_flag = false;
 bool tumbler_3_flag = false;
 
-GStepper<STEPPER4WIRE> stepper(32, STEPPER_NB, STEPPER_PB, STEPPER_NA, STEPPER_PA);
+GStepper<STEPPER4WIRE> stepper(360, STEPPER_NB, STEPPER_PB, STEPPER_NA, STEPPER_PA);
 
 void setup()
 {
